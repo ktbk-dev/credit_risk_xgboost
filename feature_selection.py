@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-ds = pd.read_csv('credit_risk_dataset_resampled.csv')
+ds = pd.read_csv('../../Library/Application Support/JetBrains/PyCharmCE2024.2/scratches/credit_risk_dataset_resampled.csv')
 
 # Print the second row of the dataset to inspect its values
 print(ds.iloc[1, :])

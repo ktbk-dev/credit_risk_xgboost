@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
 # Load the dataset
-ds = pd.read_csv('credit_risk_dataset_resampled.csv')
+ds = pd.read_csv('../../Library/Application Support/JetBrains/PyCharmCE2024.2/scratches/credit_risk_dataset_resampled.csv')
 
 # Select columns related to 'person_home_ownership'
 home_ownership_columns = [col for col in ds.columns if 'person_home_ownership' in col]

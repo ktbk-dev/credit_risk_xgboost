@@ -7,7 +7,7 @@ import joblib  # Import joblib for saving the model
 
 
 # Load the dataset
-ds = pd.read_csv('credit_risk_dataset_resampled.csv')
+ds = pd.read_csv('../../Library/Application Support/JetBrains/PyCharmCE2024.2/scratches/credit_risk_dataset_resampled.csv')
 
 # Define the features and target variable
 selected_features = [

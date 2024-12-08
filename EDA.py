@@ -6,7 +6,7 @@ from imblearn.over_sampling import SMOTE
 from helpers import apply_quantile_binning, boxcox_transformation
 
 # Load the dataset from a CSV file into a pandas DataFrame
-ds_raw = pd.read_csv('credit_risk_dataset.csv')
+ds_raw = pd.read_csv('../../Library/Application Support/JetBrains/PyCharmCE2024.2/scratches/credit_risk_dataset.csv')
 
 # Display basic information about the dataset: data types, non-null values, etc.
 ds_raw.info()
